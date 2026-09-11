@@ -1,8 +1,8 @@
 # @nerva-start-up/ui
 
-UI-kit платформы KSI. React-компоненты, токены и утилиты.
+UI-kit платформы Nerva Start-up. React-компоненты, токены и утилиты.
 
-[![GitHub Packages](https://img.shields.io/badge/GitHub%20Packages-@ksi--platform%2Fui-orange)](https://github.com/Nerva-start-up/ui-kit/pkgs/npm/ui)
+[![GitHub Packages](https://img.shields.io/badge/GitHub%20Packages-@nerva--start--up%2Fui-orange)](https://github.com/Nerva-start-up/ui-kit/pkgs/npm/ui)
 
 ## Установка
 

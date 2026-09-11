@@ -4,3 +4,4 @@ build/
 .biome/
 .env
 .claude
+tmp/
