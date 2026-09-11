@@ -1,0 +1,95 @@
+/* ── Dark theme (default) ───────────────────────── */
+:root {
+  /* Backgrounds */
+  --bg: #0d1117;
+  --surface: #161b22;
+  --surface-2: #1c2128;
+  --border: #21262d;
+
+  /* Text */
+  --text: #f0f6fc;
+  --text-sub: #b0bec5;
+  --text-muted: #8b9cb0;
+
+  /* Accent */
+  --primary: #f97316;
+  --primary-h: #fb923c;
+  --primary-d: #ea6a0a;
+  --primary-dim: rgba(249, 115, 22, 0.15);
+
+  /* Semantic */
+  --success: #4ade80;
+  --error: #f87171;
+  --info: #60a5fa;
+  --holiday: #818cf8;
+
+  /* Fonts (theme-agnostic — same in light & dark) */
+  /* Nunito — bundled variable font, see src/styles/fonts.css + src/styles/fonts/OFL.txt (SIL OFL 1.1) */
+  --font-sans: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono",
+    monospace;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.75;
+
+  --tracking-tight: -0.02em;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.02em;
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+
+  /* Shadows */
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-glow: 0 0 16px rgba(249, 115, 22, 0.25);
+}
+
+/* ── Light theme ────────────────────────────────── */
+[data-theme="light"] {
+  /* Backgrounds */
+  --bg: #f6f8fa;
+  --surface: #ffffff;
+  --surface-2: #f0f2f5;
+  --border: #d0d7de;
+
+  /* Text */
+  --text: #1f2328;
+  --text-sub: #57606a;
+  --text-muted: #8c959f;
+
+  /* Accent (slightly darker primary for contrast on light bg) */
+  --primary: #ea6a0a;
+  --primary-h: #f97316;
+  --primary-d: #c2570a;
+  --primary-dim: rgba(249, 115, 22, 0.1);
+
+  /* Semantic */
+  --success: #1a7f37;
+  --error: #d1242f;
+  --info: #0550ae;
+  --holiday: #6366f1;
+
+  /* Shadows (lighter for light bg) */
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-glow: 0 0 16px rgba(249, 115, 22, 0.2);
+}
