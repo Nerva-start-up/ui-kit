@@ -7,7 +7,7 @@ const OUT_FILE = "docs/components.json";
 
 function collectFiles(dir: string): string[] {
   const files: string[] = [];
-  for (const entry of readdirSync(dir)) {
+  for (const entry of readdirSync(dir).sort()) {
     const full = join(dir, entry);
     if (statSync(full).isDirectory()) {
       files.push(...collectFiles(full));
