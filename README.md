@@ -4,6 +4,8 @@ UI-kit платформы Nerva Start-up. React-компоненты, токен
 
 [![GitHub Packages](https://img.shields.io/badge/GitHub%20Packages-@nerva--start--up%2Fui-orange)](https://github.com/Nerva-start-up/ui-kit/pkgs/npm/ui)
 
+**[Storybook (Ladle) →](https://nerva-start-up.github.io/ui-kit/)**
+
 ## Установка
 
 ```sh
