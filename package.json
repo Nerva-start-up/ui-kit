@@ -1,6 +1,6 @@
 {
   "name": "@nerva-start-up/ui",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "type": "module",
   "sideEffects": [
     "**/*.css"
